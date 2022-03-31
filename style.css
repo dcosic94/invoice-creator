@@ -9,6 +9,7 @@
 html {
     font-family: 'Inter', sans-serif;
     font-size: 62.5%; 
+
 }
 
 img, svg {
@@ -168,4 +169,31 @@ hr {
     text-decoration: underline;
     margin-left: 1.5rem;
     cursor: pointer;
+}
+
+@media(max-width:40rem) {
+
+    html {
+            background-color: #1F2937;
+    }
+
+    .container {
+
+        margin: 0 auto;
+    }
+    
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-btn {
+        width: 60%;
+        margin: 1rem 0;
+    }
+
+    .inner-section {
+        padding: 0 1rem 10rem 1rem;
+    }
+    
 }
